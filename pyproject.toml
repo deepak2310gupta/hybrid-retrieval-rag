@@ -1,5 +1,5 @@
 [project]
-name = "hybrid-retrieval-rag-1"
+name = "hybrid-retrieval-rag"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-hybrid-retrieval-rag-1 = "hybrid_retrieval_rag_1:main"
+hybrid-retrieval-rag = "hybrid_retrieval_rag:main"
 
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]
